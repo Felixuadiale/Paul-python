@@ -15,6 +15,19 @@ def initial_phonebook():
         phonebook.append(temp)
     print(phonebook)
     return phonebook
+def add_contact(pb):
+    dip=[]
+    for i in range(len(pb[0])):
+        if i==0:
+            dip.append(str(input("Enter name: ")))
+        if i==1:
+            dip.append(int(input("Enter number: ")))
+        pb.append(dip)
+        return pb
 print("Welcome to Phonebook app")
 pb=initial_phonebook()
 print(pb)
+add=input(' Do you want to add a new contact(y/n)')
+if add=='y':
+    pb=add_contact(pb)
+    print(pb)
