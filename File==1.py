@@ -1,2 +1,8 @@
 f1=open('C:/Users/HP/Downloads/python programmes/hello.txt',"w")
 f1.write('Hello, how are you,i am good')
+f1.close()
+f1=open('C:/Users/HP/Downloads/python programmes/hello.txt',"a")
+f1.write(', i am fine')
+f1.close()
+f2=open('C:/Users/HP/Downloads/python programmes/hello.txt',"r")
+print(f2.read())
