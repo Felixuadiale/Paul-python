@@ -1,5 +1,5 @@
 import random
-number=random.randit(1,10)
+number=random.randint(1,10)
 number_of_guesses=0
 while  number_of_guesses<5:
     guess=int(input("Welome to number game.Enter your guess(1,10)"))
