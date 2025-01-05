@@ -25,4 +25,4 @@ def determine_winner(user_choice,computer_choice):
       else:
             return "Computetr wins"
 if __name__=="__main__":
-      play_game
+      play_game()
