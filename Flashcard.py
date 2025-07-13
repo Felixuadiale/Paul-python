@@ -8,7 +8,7 @@ flash=[]
 print("welcome to flashcard application")
 while(True):
     word=input("enter the name you word:")
-    meaning=input("enter the meaningof the word:")
+    meaning=input("enter the meaning of the word:")
     flash.append(flashcard(word,meaning))
     option=int(input("enter 0, if you want to add another flashcard otherwise enter 1:"))
     if(option):
